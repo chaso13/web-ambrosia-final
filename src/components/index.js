@@ -4,6 +4,9 @@ import Navbar from './NavBar';
 import About from './About';
 import OurWork from './OurWork';
 import Footer from './Footer';
+import Companies from './Companies';
+import ContactButton from './ContactButton';
+
 
 export {
     Home,
@@ -11,5 +14,7 @@ export {
     Navbar,
     About,
     OurWork,
-    Footer
+    Footer,
+    Companies,
+    ContactButton
 };

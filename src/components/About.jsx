@@ -1,4 +1,5 @@
-import {webDevelopment,mobileDevelopment,SEO } from '../assets';
+import {mobileDevelopment,SEO, svgLaptop,svgMobile, svgTablet} from '../assets';
+import Companies from './Companies';
 import styles, {layout} from '../style';
 
 
@@ -6,7 +7,7 @@ const About = () => (
   <section id='about' >
     <div className={layout.sectionReverse}>
         <div className={layout.sectionImgReverse}>
-            <img src={webDevelopment} alt='web development' className='w-[40%] relative z-[5]'/>
+            <img src={svgTablet} alt='web development' className='w-[50%] relative z-[5]'/>
             <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient'/>
             <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient'/>
         </div>
@@ -28,7 +29,7 @@ const About = () => (
         </div>
         
         <div className={layout.sectionImgReverse}>
-            <img src={SEO} alt='search engine optimization' className='w-[40%] relative z-[5]'/>
+            <img src={svgLaptop} alt='search engine optimization' className='w-[60%] relative z-[5]'/>
             <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient'/>
             <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient'/>
         </div> 
@@ -36,7 +37,7 @@ const About = () => (
 
     <div className={layout.sectionReverse}>
         <div className={layout.sectionImgReverse}>
-            <img src={mobileDevelopment} alt='mobile development' className='w-[40%] relative z-[5]'/>
+            <img src={svgMobile} alt='mobile development' className='w-[40%] relative z-[5]'/>
             <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient'/>
             <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient'/>
         </div>

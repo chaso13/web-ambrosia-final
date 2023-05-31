@@ -7,12 +7,12 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
   
-    <nav className='bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-950 dark:border-gray-950'>
+    <nav className='bg-[#5F2EEF] fixed w-full z-20 top-0 left-0 border-b border-gray-950 dark:border-gray-950'>
       <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3 pl-10 pr-10'>
       <img src={logo} alt='webambrosia' className='w-[32px] h-[32px]'/>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) =>(
-          <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white hover:text-orange-400`}>
+          <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white hover:text-secondary`}>
             <a href={`#${nav.id}`}>
               {nav.title}
             </a>

@@ -27,7 +27,12 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import svgChart from "./SVGCharts1.svg";
-import svgBackground from "./backgroundSVG.svg"
+import svgBackground from "./backgroundSVG.svg";
+import svgLaptopCharts from "./laptop.svg";
+import svgLaptop from "./laptopChartsSVG.svg";
+import svgMobile from "./mobileSVG.svg";
+import svgTablet from "./ipadSVG.svg";
+import contactSVG from "./contact.svg";
 
 export {
   airbnb,
@@ -46,6 +51,10 @@ export {
   webDevelopment,
   mobileDevelopment,
   svgBackground,
+  svgLaptop,
+  svgLaptopCharts,
+  svgTablet,
+  svgMobile,
   SEO,
   menu,
   close,
@@ -60,4 +69,5 @@ export {
   people01,
   people02,
   people03,
+  contactSVG,
 };

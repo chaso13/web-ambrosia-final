@@ -1,29 +1,29 @@
 
 import styles from './style';
-import { Home, About, Contact, Navbar, OurWork, Footer} from './components';
+import { Home, About, Contact, Navbar, OurWork, Footer, Companies, ContactButton} from './components';
 
 
 const App = () => (
-    <div className="bg-primary w-full overflow-hidden">
+    <div className=" w-full overflow-hidden">
     
       <div className={`${styles.paddingX} ${styles.flexLeft}`}>
         <div className={`${styles.boxWidth}`}>
         </div>
           <Navbar/>
       </div>
-
-      <div className={`bg-primary ${styles.flexStart}`}>
+        <ContactButton/>
+      <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
         <Home/>
         </div>
           
       </div>
-
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <Companies/>
+      <div className={` ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
+          <About/>
           <Contact/>
           <OurWork/>
-          <About/>
           <Footer/>
         </div>
       </div>
