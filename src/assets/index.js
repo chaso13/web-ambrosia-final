@@ -18,6 +18,7 @@ import webDevelopment from "./web-development-icon.png";
 import mobileDevelopment from "./mobile-development.png";
 import SEO from "./search-engine-optimization.png";
 import arrowUp from "./arrow-up.svg";
+import arrowUpBlack from "./arrow-up-black.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
@@ -61,6 +62,7 @@ export {
   google,
   apple,
   arrowUp,
+  arrowUpBlack,
   discount,
   facebook,
   instagram,
