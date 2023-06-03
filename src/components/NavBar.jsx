@@ -1,5 +1,5 @@
 import {useState} from 'react'
-
+import { Link } from 'react-router-dom'
 import {close,logo, menu} from '../assets';
 import {navLinks} from '../constants';
 const Navbar = () => {
@@ -26,9 +26,9 @@ const Navbar = () => {
           <ul className = 'list-none flex flex-col justify-end items-center flex-1'>
           {navLinks.map((nav, index) =>(
           <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[19px] ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} text-white`}>
-            <a href={`#${nav.id}`}>
+            <Link to={`/${nav.title}`}>
               {nav.title}
-            </a>
+            </Link>
           </li>
         ))}
           </ul>
