@@ -41,8 +41,8 @@ export const socialMedia = [
       id: "social-media-4",
       icon: linkedin,
       link: "https://www.linkedin.com/",
-    },
-  ];
+    }
+  ]
 
   export const seoTags = [
     {
@@ -58,7 +58,7 @@ export const socialMedia = [
       id: "about-tags",
       title: "Web Ambrosia | About",
       description: "",
-      canonical: "https://www.webambrosia.com",
+      canonical: "https://www.webambrosia.com/About",
       name: "",
       type: "",
       card: ""
@@ -67,7 +67,7 @@ export const socialMedia = [
       id: "contact-tags",
       title: "Web Ambrosia | Contact",
       description: "",
-      canonical: "https://www.webambrosia.com",
+      canonical: "https://www.webambrosia.com/Contact",
       name: "",
       type: "",
       card: ""
@@ -76,7 +76,7 @@ export const socialMedia = [
       id: "work-tags",
       title: "Web Ambrosia | Our Work",
       description: "",
-      canonical: "https://www.webambrosia.com",
+      canonical: "https://www.webambrosia.com/OurWork",
       name: "",
       type: "",
       card: ""
@@ -85,7 +85,7 @@ export const socialMedia = [
       id: "deadly-accurate-tags",
       title: "Web Ambrosia | Deadly Accurate",
       description: "",
-      canonical: "https://www.webambrosia.com",
+      canonical: "https://www.webambrosia.com/OurWork/DeadlyAccurate",
       name: "",
       type: "",
       card: ""
@@ -94,7 +94,7 @@ export const socialMedia = [
       id: "chaos-coach-tags",
       title: "Web Ambrosia | Chaos Coach",
       description: "",
-      canonical: "https://www.webambrosia.com",
+      canonical: "https://www.webambrosia.com/OurWork/ChaosCoach",
       name: "",
       type: "",
       card: ""
@@ -103,7 +103,7 @@ export const socialMedia = [
       id: "chaos-coach-vip-tags",
       title: "Web Ambrosia | Chaos Coaching",
       description: "",
-      canonical: "https://www.webambrosia.com",
+      canonical: "https://www.webambrosia.com/OurWork/ChaosCoachVip",
       name: "",
       type: "",
       card: ""
@@ -112,7 +112,7 @@ export const socialMedia = [
       id: "birch-enterprises-tags",
       title: "Web Ambrosia | Birch Enterprises",
       description: "",
-      canonical: "https://www.webambrosia.com",
+      canonical: "https://www.webambrosia.com/OurWork/BirchEnterprises",
       name: "",
       type: "",
       card: ""
