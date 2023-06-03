@@ -5,19 +5,23 @@ export const navLinks = [
   {
     id: "home",
     title: "Home",
+    ext: "/"
   },
   {
     id: "services",
     title: "Services",
+    ext: "/Services"
   },
 
   {
     id: "about",
     title: "About",
+    ext: "/About"
   },
   {
     id: "ourwork",
     title: "OurWork",
+    ext: "/OurWork"
   },
 ];
 
