@@ -1,11 +1,11 @@
 import Home from './Home'
-import Contact from './Contact'
+import Services from './Services'
 import OurWork from './OurWork'
 import WorkItem from './WorkItem'
 
 export {
     Home,
-    Contact,
+    Services,
     WorkItem,
     OurWork
 }
