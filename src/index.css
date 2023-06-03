@@ -29,7 +29,18 @@
   text-fill-color: transparent;
 }
 
-.bg-nav {}
+.bg-primary{
+  background: #5F2EEF;
+}
+.bg-secondary{
+  background: #33bbcf;
+}
+.bg-tertiary{
+  background: #3C1D97;
+}
+.text-tertiary{
+  color:#3C1D97;
+}
 
 .bg-blue-gradient {
   background: linear-gradient(157.81deg,
