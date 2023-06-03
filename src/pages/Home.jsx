@@ -1,5 +1,5 @@
 import styles from '../style'
-import { Hero, About, Contact, Navbar, OurWork, Footer, Companies, ContactButton } from '../components'
+import { Hero, About, Contact, Navbar, OurWork, Companies, ContactButton } from '../components'
 
 export default function Home() {
   return (
@@ -21,7 +21,6 @@ export default function Home() {
           <About />
           <Contact />
           <OurWork />
-          <Footer />
         </div>
       </div>
     </div>
