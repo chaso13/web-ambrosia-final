@@ -55,10 +55,10 @@ export const socialMedia = [
       card: ""
     },
     {
-      id: "about-tags",
-      title: "Web Ambrosia | About",
+      id: "services-tags",
+      title: "Web Ambrosia | Services",
       description: "",
-      canonical: "https://www.webambrosia.com/About",
+      canonical: "https://www.webambrosia.com/Services",
       name: "",
       type: "",
       card: ""
