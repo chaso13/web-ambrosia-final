@@ -1,5 +1,3 @@
-import styles from '../style'
-
 
 const Footer = () => (
     <footer className="bg-primary pt-4 pb-8 xl:pt-8">
@@ -8,27 +6,27 @@ const Footer = () => (
                 <li className="w-1/2 md:w-1/3 lg:w-1/3">
                     <div className="text-center">
                         <h2 className="text-gray-500 dark:text-gray-200 text-md uppercase mb-4">
-                            Components
+                           Settings & Policies
                         </h2>
                         <ul>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    Elements
+                                    Privacy Policies
                                 </a>
                             </li>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    Forms
+                                    Cookie Policies
                                 </a>
                             </li>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    Commerces
+                                    Settings
                                 </a>
                             </li>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    Navigation
+                                    Accessibility 
                                 </a>
                             </li>
                         </ul>
@@ -42,7 +40,7 @@ const Footer = () => (
                         <ul>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    Github
+                                    Instagram
                                 </a>
                             </li>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
@@ -57,7 +55,7 @@ const Footer = () => (
                             </li>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    LinkedIn
+                                    Linkeldin
                                 </a>
                             </li>
                         </ul>
@@ -66,27 +64,27 @@ const Footer = () => (
                 <li className="w-1/2 md:w-1/3 lg:w-1/3">
                     <div className="text-center">
                         <h2 className="text-gray-500 dark:text-gray-200 text-md uppercase mb-4">
-                            Customization
+                            Sitemap
                         </h2>
                         <ul>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    Settings
+                                    Home
                                 </a>
                             </li>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    Themes
+                                    Services
                                 </a>
                             </li>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    Plugins
+                                    Our Work
                                 </a>
                             </li>
                             <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                 <a href="#">
-                                    LinkedIn
+                                    Contact
                                 </a>
                             </li>
                         </ul>
@@ -131,12 +129,12 @@ const Footer = () => (
                         <input type="text" id="&quot;form-subscribe-Subscribe" className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Email"/>
                         </div>
                         <button className="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-tertiary rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200" type="submit">
-                            Subscribe
+                            Contact
                         </button>
                     </form>
                 </div>
                 <div className="text-center pt-10 sm:pt-12 font-light flex items-center justify-center">
-                    Created by Charlie
+                    Web Ambrosia LLC
                 </div>
             </div>
         </footer>
