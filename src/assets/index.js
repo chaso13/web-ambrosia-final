@@ -34,6 +34,7 @@ import svgLaptop from "./laptopChartsSVG.svg";
 import svgMobile from "./mobileSVG.svg";
 import svgTablet from "./ipadSVG.svg";
 import contactSVG from "./contact.svg";
+import svgPricing from "./svg-pricing.svg";
 
 export {
   airbnb,
@@ -72,4 +73,5 @@ export {
   people02,
   people03,
   contactSVG,
+  svgPricing,
 };

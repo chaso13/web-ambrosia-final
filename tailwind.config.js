@@ -49,7 +49,12 @@ export default {
           '100%': {
             opacity: '1'
           }
-        }
+        },
+          floater: {
+            '0%, 100%': { transform: 'traslate(0%,0%)' },
+            '50%': { transform: 'translate(4%,4%)' },
+          }
+  
 
 
       },
@@ -57,7 +62,8 @@ export default {
         'fill-circle':  'progress 1s ease-out forwards',
         'in-up': 'inUp 1s ease-in',
         'from-middle': 'fromMiddle 6s ease-in',
-        'fade-in': 'fadeIn 2s ease-in'
+        'fade-in': 'fadeIn 2s ease-in',
+        'floater':'floater 9s ease-in-out infinite'
 
       },
       colors: {
@@ -68,6 +74,8 @@ export default {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        crimsonPro: ["Crimson Pro","sans-serif"],
+        Jost: ["Jost","sans-serif"],
       },
     },
     screens: {
