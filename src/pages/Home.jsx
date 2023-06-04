@@ -1,5 +1,5 @@
 import styles from '../style'
-import { Hero, About, Contact, OurWork, Companies, ContactButton } from '../components'
+import { Hero, About, Contact, OurWork, Companies, ContactButton, Pricing } from '../components'
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
       <div className={`${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <About />
+          <Pricing/>
           <Contact />
           <OurWork />
         </div>

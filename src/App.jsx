@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import loadable from '@loadable/component'
 import CacheBuster from 'react-cache-buster'
-import { Home, OurWork, Services, WorkItem } from './pages';
+import { Home, OurWork, Services, WorkItem, Pricing } from './pages';
 import { Navbar, Footer } from './components';
 import { HelmetProvider } from 'react-helmet-async'
 import { version } from '../package.json'
@@ -24,6 +24,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/Services" element={<Services />} />
+              <Route path="/Pricing" element={<Pricing/>}/>
               <Route path="/OurWork" element={<OurWork />} />
               <Route path="/OurWork/:id" element={<WorkItem />} />
             </Routes>

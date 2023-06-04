@@ -6,7 +6,7 @@ import OurWork from './OurWork';
 import Footer from './Footer';
 import Companies from './Companies';
 import ContactButton from './ContactButton';
-import Pricing from './Pricing';
+
 
 
 export {
@@ -17,6 +17,5 @@ export {
     OurWork,
     Footer,
     Companies,
-    ContactButton,
-    Pricing
+    ContactButton
 }
