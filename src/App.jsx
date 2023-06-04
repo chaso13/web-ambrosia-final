@@ -2,10 +2,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import loadable from '@loadable/component'
 import CacheBuster from 'react-cache-buster'
 import { Home, OurWork, Services, WorkItem, Pricing } from './pages';
-import { Navbar, Footer } from './components';
+import { Navbar } from './components';
 import { HelmetProvider } from 'react-helmet-async'
 import { version } from '../package.json'
 
+const Footer = loadable(() => import('./components/Footer'))
+const ContactButton = loadable(() => import('./components/ContactButton'))
 const Spinner = loadable(() => import('./helpers/Spinner'))
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
               <Route path="/OurWork/:id" element={<WorkItem />} />
             </Routes>
             <Footer />
+            <ContactButton />
           </div>
         </Router>
       </HelmetProvider>

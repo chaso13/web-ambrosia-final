@@ -1,5 +1,5 @@
 import styles from '../style'
-import { Hero, About, Contact, OurWork, Companies, ContactButton } from '../components'
+import { Hero, About, Contact, OurWork, Companies } from '../components'
 
 export default function Home() {
   return (
@@ -8,7 +8,6 @@ export default function Home() {
         <div className={`${styles.boxWidth}`}>
         </div>
       </div>
-      <ContactButton />
       <div className={`${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
