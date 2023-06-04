@@ -9,10 +9,56 @@ export default {
           '0%': {
             strokeDasharray:'0 100'
           }
+        },
+        inUp: {
+          '0%': {
+            transform: 'translateY(40%)',
+            
+          },
+        
+          '100%': {
+            transform: 'translateY(0px)',
+            opacity: '1'
+          }
+        },
+        fromMiddle: {
+          '0%': {
+            letterSpacing: '-0.5em',
+            transform: 'translateZ(-700px)',
+            opacity: '0'
+          },
+        
+          '40%': {
+            opacity: '0.6'
+          },
+        
+          '100%': {
+            transform: 'translateZ(0px)',
+            opacity: '1'
+          }
+        },
+        fadeIn: {
+          '0%': {
+            opacity: '0'
+          },
+        
+          '40%': {
+            opacity: '0.6'
+          },
+        
+          '100%': {
+            opacity: '1'
+          }
         }
+
+
       },
       animation: {
-        'fill-circle':  'progress 1s ease-out forwards'
+        'fill-circle':  'progress 1s ease-out forwards',
+        'in-up': 'inUp 1s ease-in',
+        'from-middle': 'fromMiddle 6s ease-in',
+        'fade-in': 'fadeIn 2s ease-in'
+
       },
       colors: {
         primary: "#00040f",
