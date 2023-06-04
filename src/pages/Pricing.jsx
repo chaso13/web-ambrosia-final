@@ -1,9 +1,11 @@
 import { svgLaptop,svgMobile, svgTablet} from '../assets';
 import styles, {layout} from '../style';
 
-const Pricing = () => {
-    <section>
-
+export default function Pricing(){
+    return(
+    <section >
+    <div className={`${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`${styles.boxWidth}`}>
     <div className={layout.sectionReverse}>
         <div className={layout.sectionImgReverse}>
             <img src={svgTablet} alt='web development' className='w-[50%] relative z-[5]'/>
@@ -105,7 +107,9 @@ const Pricing = () => {
             <h2> $2,000 to $3,500 per/month </h2>
         </div>
     </div>
-    </section>
-}
+    </div>
+    </div>
 
-export default Pricing
+    </section>
+
+)}
