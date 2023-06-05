@@ -1,4 +1,4 @@
-import { svgLaptop,svgMobile, svgTablet, svgPricing} from '../assets';
+import { svgLaptop,svgMobile, svgTablet, svgPricing, moneyPlant} from '../assets';
 import styles, {layout} from '../style';
 
 
@@ -10,7 +10,7 @@ export default function Pricing(){
     <div className={`${styles.boxWidth}`}>
     
     {/*Hero section start for Pricing */}
-    <div className='flex md:flex-row flex-col'>
+    <div className='flex md:flex-row flex-col pb-[10vh]'>
     <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6 py-10 z-[10] min-h-[100vh] pt-[40vh]`}>
       <div className='flex flex-row justify-center items-center w-full'>
       
@@ -20,36 +20,36 @@ export default function Pricing(){
       </div>
       <div className=' ml-[-25px] mt-[-45px] w-[3rem] h-[3rem] bg-[#107bdf] rounded-[100%] z-[-1] absolute flex justify-center items-start whitespace-nowrap'></div>
      
-      <p className={` font-Jost text-[22px] max-w-[470px] text-primary pl-[150px] pt-[60px] pb-[10px] animate-fade-in inline-block`}>
+      <p className={` font-Jost text-[22px] max-w-[470px] text-primary pl-[150px] pt-[60px] pb-[10px] animate-fade-in inline-block font-semibold`}>
       Pricing doesnt have to be complicated. Lets explore the possibilities together.
       </p>
     </div>
     
 
-    <div className={`${layout.sectionImgReverse}`}>
+    <div className={`${layout.sectionImgReverse} pb-[10px]`}>
             <img src={svgPricing} alt='budget' className='w-[75%] md:ml-[10vw] relative z-[5]'/>
-            <div  className='absolute z-[9]  min-h-[75%] min-w-[100%] rounded-[100%] bg-[#107bdf22] left-0 right-0 md:ml-[5vw] animate-floater '/>
+            <div  className='absolute z-[9]  md:h-[60%] lg:h-[77%]  rounded-[100%] bg-[#107bdf22] left-0 right-0 md:ml-[5vw] animate-floater aspect-square'/>
     </div>
-   
+    
+</div>
 
-    </div>
    
     {/*Budget Section */}
 
     <div className={layout.section}>
        
-
         <div className={layout.sectionInfo}>
-            <h3> Budget does not matter</h3>
-            <h2 className={`${styles.heading2} text-gradient`}> unless there is a return on investment</h2>
-            <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            While your budget is important, what matters even more is obtaining a website that effectively achieves your goals and generates a positive return on investment. <br className='sm:block hidden'/>
-            Thats why, at Thrive, our primary focus is on strategy and ensuring your project aligns with your sales and marketing efforts. If we believe we cannot generate a substantial return on investment, we will not undertake your project.
+            <h3 className='font-Jost text-[22px] font-semibold leading-none'> budget does not matter  </h3>
+            <h2 className='font-crimsonPro text-[40px] font-semibold leading-none'> unless there is a <br/> return on investment</h2>
+            <p className='block max-w-[986px] mt-5 font-Jost text-[18px]'>
+            While your budget is important, what matters even more is obtaining a website that effectively achieves your goals and generates a positive return on investment. </p>
+            <br/>
+            <p className='block max-w-[986px] font-Jost text-[18px]'>Thats why, at Thrive, our primary focus is on strategy and ensuring your project aligns with your sales and marketing efforts. If we believe we cannot generate a substantial return on investment, we will not undertake your project.
             </p>
         </div>
 
         <div className={layout.sectionImgReverse}>
-            <img src={svgTablet} alt='budget' className='w-[50%] relative z-[5]'/>
+            <img src={moneyPlant} alt='budget' className='w-[30%] relative z-[5]'/>
             <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient'/>
             <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient'/>
         </div>
@@ -58,12 +58,11 @@ export default function Pricing(){
 
     {/* Pricing components section start */}
 
-    <div className=''>
-        <h3 className='text-gradient text-[22px] flex justify-center'> Price indicators</h3>
-        <h2 className={` text-[40px] flex justify-center font-crimsonPro`}> a rough idea of the required investment</h2>
+    <div className='pt-[30vh]'>
+        <h3 className=' text-[22px] flex justify-center font-Jost leading-none font-semibold'> price indicators</h3>
+        <h2 className=' text-[40px] flex justify-center font-crimsonPro leading-none font-semibold'> a rough idea of the required investment</h2>
         <div className='flex justify-center'>
-            
-            <p className='max-w-[470px] mt-5'>
+            <p className='max-w-[980px] mt-5 flex text-center'>
             We provide customized fixed prices for each project, tailored to the specific needs of the client, where we are confident in generating a positive return. However, its always helpful to have an idea of what to expect, right? To provide some clarity, we have compiled a general pricing guideline for your reference.
             </p>
         </div>
