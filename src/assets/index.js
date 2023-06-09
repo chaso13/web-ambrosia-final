@@ -36,6 +36,12 @@ import svgTablet from "./ipadSVG.svg";
 import contactSVG from "./contact.svg";
 import svgPricing from "./svg-pricing.svg";
 import moneyPlant from "./Money-plant.svg";
+import AwardSVG from "./Award.svg";
+import ComplexSVG from "./ComplexSite.svg";
+import LightSVG from "./Light-Bulb.svg";
+import CopySVG from "./CopyWrite.svg";
+import SeachSVG from "./Search.svg";
+import StandardSVG from "./StandardSite.svg";
 
 export {
   airbnb,
@@ -76,4 +82,10 @@ export {
   contactSVG,
   svgPricing,
   moneyPlant,
+  AwardSVG,
+  ComplexSVG,
+  LightSVG,
+  CopySVG,
+  SeachSVG,
+  StandardSVG,
 };
