@@ -1,5 +1,6 @@
 import { svgPricing, moneyPlant, AwardSVG, ComplexSVG, LightSVG, CopySVG, SeachSVG, StandardSVG,} from '../assets';
 import styles, {layout} from '../style';
+import Accordion from '../components/Accordion/Accordion' ;
 
 
 export default function Pricing(){
@@ -294,7 +295,6 @@ export default function Pricing(){
 
     {/* The Proposal Process section Start*/}
         <div >
-            
             <h3 className='font-Jost text-[22px] font-semibold leading-none'> figuring out price </h3>
             <h2 className='font-crimsonPro text-[40px] font-semibold leading-none'> how we put together a proposal </h2>
             <div className={layout.section}>
@@ -316,6 +316,17 @@ export default function Pricing(){
                     <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full white__gradient'/>
                     <div  className='absolute z-[3] left-1/2 top-0 w-[50%] rounded-full pink__gradient'/>
                 </div>
+            </div>
+        </div>
+
+        {/* Accordion Section */}
+        <div className={layout.sectionInfo} >
+            <div className='py-10 px-10'>
+                <h2 className='font-crimsonPro text-[40px] font-semibold leading-none'> frequently asked questions </h2>
+                <h3 className='font-Jost text-[22px] font-semibold leading-none'> here are some answers to the questions we get the most.</h3>
+            </div>
+            <div className='py-10 px-10'>
+                <Accordion/>
             </div>
         </div>
 
