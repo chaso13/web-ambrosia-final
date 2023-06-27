@@ -340,7 +340,7 @@ export default function Pricing(){
         <div className=' ml-[0px] mt-[0px] w-[6rem] h-[6rem] bg-[#107bdf] rounded-[100%] z-[-1] absolute flex justify-center items-start whitespace-nowrap'></div>
         </div>
 
-        <div className='flex flex-col justify-center'>
+        <div className='flex flex-col justify-center px-[10vw]'>
             <p className='max-w-[980px] mt-10 flex text-justify text-[18px] font-Jost'>
             At Web Ambrosia, we prioritize the establishment of strong connections with our clients. We view this as more than a mere transaction; it is a partnership founded on clear, open communication, and mutual respect. Our dedication lies not only in upholding these principles throughout our entire process but also in ensuring that our clients feel heard, valued, and engaged at every step.
             
